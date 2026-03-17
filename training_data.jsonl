@@ -1,0 +1,35 @@
+{"text": "<s>[INST] What's the weather like? [/INST] {'skill': 'get_weather'} </s>"}
+{"text": "<s>[INST] Tell me the forecast [/INST] {'skill': 'get_weather'} </s>"}
+{"text": "<s>[INST] What's the weather in London? [/INST] {'skill': 'get_weather', 'location': 'London'} </s>"}
+{"text": "<s>[INST] Open notepad [/INST] {'skill': 'open_app', 'app': 'notepad'} </s>"}
+{"text": "<s>[INST] Can you launch Chrome? [/INST] {'skill': 'open_app', 'app': 'chrome'} </s>"}
+{"text": "<s>[INST] Run calculator [/INST] {'skill': 'open_app', 'app': 'calculator'} </s>"}
+{"text": "<s>[INST] What's the news? [/INST] {'skill': 'get_news'} </s>"}
+{"text": "<s>[INST] Give me the headlines [/INST] {'skill': 'get_news'} </s>"}
+{"text": "<s>[INST] What time is it? [/INST] {'skill': 'get_time'} </s>"}
+{"text": "<s>[INST] Tell me the date [/INST] {'skill': 'get_date'} </s>"}
+{"text": "<s>[INST] System status report [/INST] {'skill': 'system_status'} </s>"}
+{"text": "<s>[INST] How is my computer doing? [/INST] {'skill': 'system_status'} </s>"}
+{"text": "<s>[INST] Hello [/INST] {'skill': 'greet'} </s>"}
+{"text": "<s>[INST] Goodbye [/INST] {'skill': 'goodbye'} </s>"}
+{"text": "<s>[INST] Exit program [/INST] {'skill': 'goodbye'} </s>"}
+{"text": "<s>[INST] Play 'Bohemian Rhapsody' [/INST] {'skill': 'play_media', 'query': 'Bohemian Rhapsody'} </s>"}
+{"text": "<s>[INST] Play the new Taylor Swift song on YouTube [/INST] {'skill': 'play_media', 'query': 'new Taylor Swift song', 'platform': 'youtube'} </s>"}
+{"text": "<s>[INST] Play some lo-fi beats on Spotify [/INST] {'skill': 'play_media', 'query': 'lo-fi beats', 'platform': 'spotify'} </s>"}
+{"text": "<s>[INST] Pause the music [/INST] {'skill': 'media_control', 'action': 'playpause'} </s>"}
+{"text": "<s>[INST] Stop playing [/INST] {'skill': 'media_control', 'action': 'playpause'} </s>"}
+{"text": "<s>[INST] Resume playback [/INST] {'skill': 'media_control', 'action': 'playpause'} </s>"}
+{"text": "<s>[INST] Next song [/INST] {'skill': 'media_control', 'action': 'next'} </s>"}
+{"text": "<s>[INST] Skip track [/INST] {'skill': 'media_control', 'action': 'next'} </s>"}
+{"text": "<s>[INST] Previous song [/INST] {'skill': 'media_control', 'action': 'previous'} </s>"}
+{"text": "<s>[INST] Shutdown the computer [/INST] {'skill': 'system_control', 'action': 'shutdown'} </s>"}
+{"text": "<s>[INST] Restart my PC [/INST] {'skill': 'system_control', 'action': 'restart'} </s>"}
+{"text": "<s>[INST] Lock my workstation [/INST] {'skill': 'system_control', 'action': 'lock'} </s>"}
+{"text": "<s>[INST] Volume up [/INST] {'skill': 'system_control', 'action': 'volume_up'} </s>"}
+{"text": "<s>[INST] Turn it down [/INST] {'skill': 'system_control', 'action': 'volume_down'} </s>"}
+{"text": "<s>[INST] Mute [/INST] {'skill': 'system_control', 'action': 'mute'} </s>"}
+{"text": "<s>[INST] Take a screenshot [/INST] {'skill': 'system_control', 'action': 'screenshot'} </s>"}
+{"text": "<s>[INST] Set default play to YouTube [/INST] {'skill': 'set_preference', 'key': 'default_media_platform', 'value': 'youtube'} </s>"}
+{"text": "<s>[INST] I want my music on Spotify by default [/INST] {'skill': 'set_preference', 'key': 'default_media_platform', 'value': 'spotify'} </s>"}
+{"text": "<s>[INST] What is quantum computing? [/INST] {'skill': 'search', 'query': 'What is quantum computing?'} </s>"}
+{"text": "<s>[INST] Who is the CEO of Tesla? [/INST] {'skill': 'search', 'query': 'Who is the CEO of Tesla?'} </s>"}
